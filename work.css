@@ -1,0 +1,260 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: rgba(241, 241, 236, 0.795)
+  
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#workshop-list {
+    display: grid;
+    gap: 20px;
+}
+
+.workshop {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.workshop:hover {
+    transform: translateY(-5px);
+}
+
+.workshop h2 {
+    color: #007bff;
+    margin: 0;
+}
+
+.workshop p {
+    margin: 5px 0;
+}
+
+.details {
+    color: #555;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.workshop {
+    background-color: #f3f3f3; 
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.workshop:hover {
+    transform: scale(1.02);
+}
+
+.workshop h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.workshop .details p {
+    margin: 5px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.action-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.pin-button {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.pin-button:hover {
+    background-color: #e6b800;
+    transform: scale(1.05);
+}
+
+
+.save-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.save-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.workshop {
+    background-color: #f0f0f0; 
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.action-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.additional-details {
+    display: none; 
+    margin-top: 10px;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.pin-button {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.pin-button:hover {
+    background-color: #e6b800;
+    transform: scale(1.05);
+}
+
+.save-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.save-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.workshop {
+    background-color: #f3f3f3; 
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.workshop h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.workshop p {
+    color: #555;
+    margin: 5px 0;
+}
+
+.show-more, .show-less {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.show-more:hover, .show-less:hover {
+    background-color: #0056b3;
+}
+
+
+.details {
+    display: none;
+}
+.details.show {
+    display: block;
+}
+
+
+.workshop {
+    background-color: #f3f4f6; 
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+
+.toggle-details-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.toggle-details-btn:hover {
+    background-color: #0056b3;
+}
+
+.extra-details {
+    display: none; 
+    margin-top: 10px;
+}
